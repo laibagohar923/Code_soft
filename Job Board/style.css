@@ -1,0 +1,156 @@
+@import 'utilities.css';
+
+:root {
+    --primary: #00862d;
+    --bgDark: rgb(0, 0, 0);
+    --white: #00862d;
+    --secondary: #ffffff;
+    --bgLight: #00862d;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background-color: var(--bgDark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+}
+
+header nav .left a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 1rem 0;
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+.flex {
+    display: flex;
+}
+
+.items-centre {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+
+.btn {
+    padding: 0.7rem 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn-pri {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    font-weight: bolder;
+}
+
+.btn-pri:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.btn-sec {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    font-weight: bolder;
+}
+
+.btn-sec:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
+h1{
+    color: #00862d;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 60%;
+    margin-top: -400px;
+}
+p{
+    color: rgb(44, 44, 44);
+    line-height: 25px;
+    font-weight: bolder;
+    margin-left: 58%;
+    margin-top: 2%;
+}
+.btn-third {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    font-weight: bolder;
+    margin-left: 68%;
+    margin-top: 1%;
+}
+
+.btn-third:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
+.search-container {
+    position: absolute;
+    width: 350px;
+}
+
+.search-input {
+    width: 25%;
+    padding: 12px 42px 12px 17px;
+    border: 2px solid #00862d;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+
+.search-input:focus {
+    border-color: black;
+}
+
