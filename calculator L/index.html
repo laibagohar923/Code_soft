@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+   <h1>Calculator Assignment</h1>
+<div class="calculator-container">
+    <input type="text" id="display" disabled>
+    <br>
+    <button onclick="appendCharacter('1')">1</button>
+    <button onclick="appendCharacter('2')">2</button>
+    <button onclick="appendCharacter('3')">3</button>
+    <button onclick="appendCharacter('+')">+</button>
+    <br>
+    <button onclick="appendCharacter('4')">4</button>
+    <button onclick="appendCharacter('5')">5</button>
+    <button onclick="appendCharacter('6')">6</button>
+    <button onclick="appendCharacter('-')">-</button>
+    <br>
+    <button onclick="appendCharacter('7')">7</button>
+    <button onclick="appendCharacter('8')">8</button>
+    <button onclick="appendCharacter('9')">9</button>
+    <button onclick="appendCharacter('*')">*</button>
+    <br>
+    <button onclick="appendCharacter('0')">0</button>
+    <button onclick="appendCharacter('.')">.</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="appendCharacter('/')">/</button>
+    <br>
+    <button onclick="clearDisplay()">C</button>
+</div>
+<p><u><b>Made by Nehal Gohar <i class="fa-solid fa-heart"></i></b></u></p>
+<script src="first.js"></script>
+
+</body>
+</html>
